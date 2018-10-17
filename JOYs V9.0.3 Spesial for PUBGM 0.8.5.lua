@@ -79,7 +79,7 @@ startBypass()
 -- Menu
 function main()
 xmain = gg.choice({
-"🔒 New BYPASS 0.8.5 [Tencent Logo]",
+"🔒 New BYPASS 0.8.5 [9354 / 9360] [Tencent Logo]",
 "\xf0\x9f\x93\x82 《ONE CLICK FOR LANDING AND LOBBY》",
 "\xf0\x9f\x93\x82 《NEW REPLACE SKINS WEAPON》",
 "\xf0\x9f\x93\x82 《JOYs MAIN MENU》",
@@ -130,10 +130,11 @@ menuanx = gg.multiChoice({
 "💢 Fire Rate AKM [Landing]",
 "💢 Fire Rate M416 [Landing]",
 "💢 Fire Rate SCAR-L [Landing]",
+"🔒 Auto Headscrottttzz JOYsss NEW [Landing]",
 "💢 New Invisible Karakter [0.9.0]",
 "💢 New HIDE SPY PEOPLE [0.9.0]",
 "\xe2\x9d\x8c EXIT"
-}, nil,"\240\159\146\146 BANG JOYs VVIP Hack Spesial Script v9.0.3\n\xf0\x9f\x8e\xae For PUBG Mobile 0.8.5")
+}, nil,"\240\159\146\146 BANG JOYs VVIP Hack Spesial Script v9.0.3\n\xf0\x9f\x8e\xae For PUBG Mobile 0.8.5 9354/9360")
 if menuanx [1] == true then wh1() end
 if menuanx [2] == true then wh2() end
 if menuanx [3] == true then wh3() end
@@ -170,9 +171,10 @@ if menuanx [33] == true then body3() end
 if menuanx [34] == true then akm() end
 if menuanx [35] == true then m416() end
 if menuanx [36] == true then scar() end
-if menuanx [37] == true then joys() end
-if menuanx [38] == true then joyss() end
-if menuanx [39] == true then main() end 
+if menuanx [37] == true then hsnew() end
+if menuanx [38] == true then joys() end
+if menuanx [39] == true then joyss() end
+if menuanx [40] == true then main() end 
 end
 
 function onecrot()
@@ -741,6 +743,28 @@ gg.editAll("0.04800000022", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Successful Activated")
 end
+
+    function hsnew()
+   gg.setRanges(gg.REGION_BAD)
+    gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(2)
+    gg.editAll("-560", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(2)
+    gg.editAll("-660", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll("350", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast("Auto Headcrootzzzz JOYsssss CUK Successful Activated")
+end
+
 function HOME()
 END2 = gg.choice({
 "🔫Assault Rifles",
