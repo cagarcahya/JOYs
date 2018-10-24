@@ -131,6 +131,7 @@ menuanx = gg.multiChoice({
 "💢 Fire Rate M416 [Landing]",
 "💢 Fire Rate SCAR-L [Landing]",
 "🔒 Auto Headscrottttzz JOYsss NEW [Landing]",
+"🔒Auto Headshot Costum New Value Source Code [Landing]",
 "💢 New Invisible Karakter [0.9.0]",
 "💢 New HIDE SPY PEOPLE [0.9.0]",
 "\xe2\x9d\x8c EXIT"
@@ -174,7 +175,8 @@ if menuanx [36] == true then scar() end
 if menuanx [37] == true then hsnew() end
 if menuanx [38] == true then joys() end
 if menuanx [39] == true then joyss() end
-if menuanx [40] == true then main() end 
+if menuanx [40] == true then newhss() end
+if menuanx [41] == true then main() end 
 end
 
 function onecrot()
@@ -764,7 +766,26 @@ end
     gg.clearResults()
     gg.toast("Auto Headcrootzzzz JOYsssss CUK Successful Activated")
 end
-
+function newhss()
+   gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(2)
+    gg.editAll("-300", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(2)
+    gg.editAll("-400", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10)
+    gg.editAll("250", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast("Auto Headshot New by JOYs [COSTUM HS] Activated")
+end
 function HOME()
 END2 = gg.choice({
 "🔫Assault Rifles",
